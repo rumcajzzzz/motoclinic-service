@@ -96,6 +96,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               © {new Date().getFullYear()} AutoClinic Pro. Wszystkie prawa zastrzeżone.
             </p>
+            <a target="_blank" rel="noopener noreferrer" className="underline text-red-500" href="https://rumcajzdev.netlify.app/">Designed and developed by rumcajzdev</a>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors duration-300">
                 Polityka Prywatności

@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import { useState, useEffect, useRef } from "react"
 
 export default function FAQ() {
@@ -150,9 +151,11 @@ export default function FAQ() {
             <p className="text-gray-300 mb-6 drop-shadow-sm">
               Skontaktuj się z nami bezpośrednio - nasz zespół chętnie udzieli szczegółowych informacji
             </p>
-            <button className="px-8 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold rounded-lg transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/25 border border-orange-400/50">
-              SKONTAKTUJ SIĘ Z NAMI
-            </button>
+            <Link href={"#contact"}>
+              <button className="px-8 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold rounded-lg transition-all duration-300 hover:shadow-2xl hover:shadow-orange-500/25 border border-orange-400/50">
+                SKONTAKTUJ SIĘ Z NAMI
+              </button>
+            </Link>
           </div>
         </div>
       </div>

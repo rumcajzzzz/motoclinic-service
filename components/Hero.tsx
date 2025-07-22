@@ -150,8 +150,8 @@ function FloatingSVGs() {
 
       setTimeout(() => {
         setVisibleSVGs((prev) => prev.filter((index) => index !== randomIndex))
-      }, 4000)
-    }, 2000)
+      }, 500)
+    }, 500)
 
     return () => clearInterval(interval)
   }, [])

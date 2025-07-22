@@ -138,10 +138,10 @@ export default function Services() {
                     </li>
                   ))}
                 </ul>
-
+{/* 
                 <button className="w-full py-3 bg-gradient-to-r from-orange-500/20 to-blue-500/20 border border-orange-500/30 rounded-lg text-orange-500 font-semibold hover:from-orange-500/30 hover:to-blue-500/30 hover:border-orange-500/50 transition-all duration-300 shadow-lg hover:shadow-orange-500/25">
                   Dowiedz się więcej
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
